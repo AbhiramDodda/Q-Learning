@@ -168,7 +168,7 @@ class Agent:
     
         
 if __name__ == "__main__":
-    #agent for 10,000 episdoes 
+    #agent for 20,000 episdoes 
     ag = Agent()
     episodes = 20000
     ag.Q_Learning(episodes)
