@@ -21,7 +21,7 @@ class State:
         self.isEnd = False        
 
     def getReward(self):
-        #rewards for each state -5 for loss, +1 for win, -1 for others
+        #rewards for each state -5 for loss, +10 for win, -1 for others
         for i in HOLE_STATE:
             if self.state == i:
                 return -5
